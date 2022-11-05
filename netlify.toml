@@ -1,4 +1,6 @@
 [build]
   command = "make -j4"
-[run]
+
+[context.production]
+  publish = ""
   command = "make run"
