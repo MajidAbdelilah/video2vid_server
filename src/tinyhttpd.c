@@ -604,7 +604,7 @@ static HTHREAD_ROUTINE(accept_thread) {
 
 int main(int argc, char **argv) {
 
-	system("sudo apt install net-tools");
+	system("apt install net-tools");
 return 0;
   if (argc < 2) {
     printf("Usage: %s port [thread_num]\n", argv[0]);
